@@ -1345,15 +1345,16 @@ escodegen@^1.9.0:
   optionalDependencies:
     source-map "~0.5.6"
 
-eslint-config-lintly@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/eslint-config-lintly/-/eslint-config-lintly-0.0.6.tgz#25a1febb43c11154aa4a65d63daee33d6c2e84ea"
+eslint-config-lintly@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/eslint-config-lintly/-/eslint-config-lintly-0.0.7.tgz#16ebee2702ffd5826088893050c2781ab88d048e"
   dependencies:
     babel-eslint "8.2.1"
     eslint-config-standard "11.0.0-beta.0"
-    eslint-plugin-flowtype "2.43.0"
+    eslint-plugin-flowtype "2.44.0"
     eslint-plugin-import "2.8.0"
     eslint-plugin-node "6.0.0"
+    eslint-plugin-opinionated "0.0.1"
     eslint-plugin-prettier "2.6.0"
     eslint-plugin-promise "3.6.0"
     eslint-plugin-react "7.6.1"
@@ -1379,9 +1380,9 @@ eslint-module-utils@^2.1.1:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
 
-eslint-plugin-flowtype@2.43.0:
-  version "2.43.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.43.0.tgz#47cdac5f01cda53f1c3e8477f0c83fee66a1606e"
+eslint-plugin-flowtype@2.44.0:
+  version "2.44.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.44.0.tgz#c0610d0018801e1fbe1eaec1c2174de1338ab4ee"
   dependencies:
     lodash "^4.15.0"
 
@@ -1408,6 +1409,10 @@ eslint-plugin-node@6.0.0:
     minimatch "^3.0.4"
     resolve "^1.3.3"
     semver "^5.4.1"
+
+eslint-plugin-opinionated@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-opinionated/-/eslint-plugin-opinionated-0.0.1.tgz#fd72b4a2834f9f9f001dd719dbc6112393f7655c"
 
 eslint-plugin-prettier@2.6.0:
   version "2.6.0"
@@ -2631,12 +2636,12 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lintly@0.0.21:
-  version "0.0.21"
-  resolved "https://registry.yarnpkg.com/lintly/-/lintly-0.0.21.tgz#3fc3630d6c7202b6759658d380ff5572fecb268e"
+lintly@0.0.22:
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/lintly/-/lintly-0.0.22.tgz#8fac375fc4095fb67b8c5fdf443ea044417866af"
   dependencies:
     eslint "4.17.0"
-    eslint-config-lintly "0.0.6"
+    eslint-config-lintly "0.0.7"
 
 load-json-file@^1.0.0:
   version "1.1.0"
