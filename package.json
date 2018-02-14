@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-opinionated",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Opinionated rules for styling your code.",
   "main": "lib/index.js",
   "files": [
@@ -54,7 +54,7 @@
     ],
     "coverageThreshold": {
       "global": {
-        "branches": 97.5,
+        "branches": 97.73,
         "functions": 100,
         "lines": 100,
         "statements": 100

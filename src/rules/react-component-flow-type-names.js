@@ -51,8 +51,9 @@ export default (context: *): * => {
 
           if (params.length >= 1) {
             const expectedName = `${id.name}Props`
+            const param = params[0]
 
-            if (params[0].id.name !== expectedName) {
+            if (param.id && param.id.name !== expectedName) {
               context.report({
                 message: `Expected ${expectedName}.`,
                 node: params[0],
@@ -62,8 +63,9 @@ export default (context: *): * => {
 
           if (params.length >= 2) {
             const expectedName = `${id.name}State`
+            const param = params[1]
 
-            if (params[1].id.name !== expectedName) {
+            if (param.id && param.id.name !== expectedName) {
               context.report({
                 message: `Expected ${expectedName}.`,
                 node: params[1],
