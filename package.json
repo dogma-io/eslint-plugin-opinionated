@@ -1,0 +1,65 @@
+{
+  "name": "eslint-plugin-opinionated",
+  "version": "0.0.1",
+  "description": "Opinionated rules for styling your code.",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "nodely -s ./src -o ./lib",
+    "postpublish": "codecov",
+    "prepublishOnly": "npm run build",
+    "test": "lintly app src && flow && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dogma-io/eslint-plugin-opinionated.git"
+  },
+  "keywords": [
+    "code",
+    "component",
+    "eslint",
+    "inferno",
+    "javascript",
+    "js",
+    "plugin",
+    "preact",
+    "quality",
+    "react",
+    "rules"
+  ],
+  "author": "Matthew Dahl <https://github.com/dogma-io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dogma-io/eslint-plugin-opinionated/issues"
+  },
+  "homepage": "https://github.com/dogma-io/eslint-plugin-opinionated#readme",
+  "devDependencies": {
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "22.2.2",
+    "codecov": "3.0.0",
+    "jest-cli": "22.3.0",
+    "lintly": "0.0.21",
+    "nodely": "0.0.28"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "lcov"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 97.5,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "testRegex": "/__tests__/.*-test\\.js$"
+  }
+}
