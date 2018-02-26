@@ -2,6 +2,13 @@
 
 Opinionated rules for styling your code.
 
+## Table of Contents
+
+*   [Installation](#installation)
+*   [Documentation](#documentation)
+*   [Contributing](#contributing)
+*   [License](#license)
+
 ## Installation
 
 **npm**
@@ -16,7 +23,7 @@ npm install eslint-plugin-opinionated
 yarn add eslint-plugin-opinionated
 ```
 
-## Usage
+## Documentation
 
 Add the following to your [ESLint configuration file][eslint-config-url]:
 
@@ -26,6 +33,14 @@ Add the following to your [ESLint configuration file][eslint-config-url]:
   "plugins": ["opinionated"]
 }
 ```
+
+## Contributing
+
+Please see the [contributing guide](CONTRIBUTING.md).
+
+## License
+
+[MIT](LICENSE.md)
 
 [cov-img]: https://img.shields.io/codecov/c/github/dogma-io/eslint-plugin-opinionated.svg "Code Coverage"
 [cov-url]: https://codecov.io/gh/dogma-io/eslint-plugin-opinionated
