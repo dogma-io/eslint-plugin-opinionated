@@ -6,6 +6,7 @@ Opinionated rules for styling your code.
 
 *   [Installation](#installation)
 *   [Documentation](#documentation)
+*   [Code of Conduct](#code-of-conduct)
 *   [Contributing](#contributing)
 *   [License](#license)
 
@@ -33,6 +34,10 @@ Add the following to your [ESLint configuration file][eslint-config-url]:
   "plugins": ["opinionated"]
 }
 ```
+
+## Code of Conduct
+
+Please see the [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Contributing
 
