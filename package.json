@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-opinionated",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Opinionated rules for styling your code.",
   "main": "lib/index.js",
   "files": [
