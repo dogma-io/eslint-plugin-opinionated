@@ -5,10 +5,12 @@
 *   Change minimum Node version to 6.
 *   Add code of conduct.
 
-## 0.0.2
+# 0.0.2 (2018-02-14)
+
+## Bug Fixes
 
 *   Fix code to handle case where superclass param doesn't have `id` property.
 
-## 0.0.1
+# 0.0.1 (2018-02-14)
 
 *   Initial implementation.
