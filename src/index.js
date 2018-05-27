@@ -2,7 +2,9 @@
  * @flow
  */
 
-module.exports = {
+import {rule as reactComponentFlowTypeNames} from './rules/react-component-flow-type-names'
+
+export default {
   configs: {
     recommended: {
       rules: {
@@ -11,7 +13,6 @@ module.exports = {
     },
   },
   rules: {
-    'react-component-flow-type-names': require('./rules/react-component-flow-type-names')
-      .rule,
+    'react-component-flow-type-names': reactComponentFlowTypeNames,
   },
 }
