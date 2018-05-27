@@ -1,4 +1,4 @@
-import rule from '../react-component-flow-type-names'
+import {rule} from '../react-component-flow-type-names'
 import {RuleTester} from 'eslint'
 
 const parser = 'babel-eslint'

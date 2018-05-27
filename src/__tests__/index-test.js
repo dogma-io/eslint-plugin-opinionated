@@ -1,5 +1,5 @@
 import index from '../index'
-import reactComponentFlowTypeNames from '../rules/react-component-flow-type-names'
+import {rule as reactComponentFlowTypeNames} from '../rules/react-component-flow-type-names'
 
 describe('eslint-plugin-react-compat', () => {
   it('should define expected configs', () => {

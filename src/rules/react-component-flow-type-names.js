@@ -14,7 +14,7 @@ const REACT_COMPONENT_EXPORT_NAME = 'Component'
 const REACT_MODULE_NAME = 'react'
 const REACT_PURE_COMPONENT_EXPORT_NAME = 'PureComponent'
 
-export default (context: *): * => {
+export function rule(context: *): * {
   let componentImportedAs: ?string
   let pureComponentImportedAs: ?string
   let reactImportedAs: ?string

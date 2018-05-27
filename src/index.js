@@ -1,3 +1,7 @@
+/**
+ * @flow
+ */
+
 module.exports = {
   configs: {
     recommended: {
@@ -8,6 +12,6 @@ module.exports = {
   },
   rules: {
     'react-component-flow-type-names': require('./rules/react-component-flow-type-names')
-      .default,
+      .rule,
   },
 }
