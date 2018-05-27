@@ -4,7 +4,7 @@
 
 import {rule as reactComponentFlowTypeNames} from './rules/react-component-flow-type-names'
 
-export default {
+module.exports = {
   configs: {
     recommended: {
       rules: {
