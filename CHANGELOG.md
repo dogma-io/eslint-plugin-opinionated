@@ -1,3 +1,7 @@
+# 0.1.6 (2018-06-05)
+
+*   Remove `engines` from `package.json`.
+
 # 0.1.5 (2018-06-05)
 
 *   Make sure build is ES5.
