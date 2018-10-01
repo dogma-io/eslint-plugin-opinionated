@@ -1,3 +1,8 @@
+# 0.2.1 (2018-10-01)
+
+*   **Fixed** generated Flow types to be valid
+
+
 # 0.2.0 (2018-10-01)
 
 *   **Added** new rule, `opinionated/jsx-spread-first`, which ensures spread attributes in JSX elements occur before non-spread attributes to prevent spread from accidentally overwriting non-spread attributes.
