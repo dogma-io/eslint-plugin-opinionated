@@ -1,3 +1,8 @@
+# 0.2.0 (2018-10-01)
+
+*   **Added** new rule, `opinionated/jsx-spread-first`, which ensures spread attributes in JSX elements occur before non-spread attributes to prevent spread from accidentally overwriting non-spread attributes.
+
+
 # 0.1.6 (2018-06-05)
 
 *   Remove `engines` from `package.json`.
