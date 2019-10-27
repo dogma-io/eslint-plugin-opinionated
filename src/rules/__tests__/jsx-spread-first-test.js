@@ -1,7 +1,7 @@
 import {rule} from '../jsx-spread-first'
 import {RuleTester} from 'eslint'
 
-const parser = 'babel-eslint'
+const parser = require.resolve('babel-eslint')
 const parserOptions = {
   ecmaVersion: 6,
   sourceType: 'module',
