@@ -1,7 +1,7 @@
 import {rule} from '../react-component-flow-type-names'
 import {RuleTester} from 'eslint'
 
-const parser = 'babel-eslint'
+const parser = require.resolve('babel-eslint')
 const parserOptions = {
   ecmaVersion: 6,
   sourceType: 'module',

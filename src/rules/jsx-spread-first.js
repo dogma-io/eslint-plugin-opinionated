@@ -21,7 +21,8 @@ export function rule(context: any): any {
           isJSXSpreadAttribute(attribute)
         ) {
           context.report({
-            message: `JSX spread attribute should go before non-spread attributes.`,
+            message:
+              'JSX spread attribute should go before non-spread attributes.',
             node: attribute,
           })
         }
